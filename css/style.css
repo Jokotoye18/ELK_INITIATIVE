@@ -1,0 +1,60 @@
+body{
+   font-size: 17px;
+   line-height: 1.5em;
+   margin: 0;
+   padding: 0;
+}
+img{
+   width: 100%;
+}
+.container {
+   margin: auto; 
+}
+/* HEADER */
+#main-header{
+   border-bottom:1px solid #cd1997;
+   background-color: #cd1997;
+}
+/*Nav-Bar*/
+#navbar li{
+display: inline;
+padding-right: 20px;
+list-style: none;
+}
+#navbar a{
+   text-decoration: none;
+   color: #ffffff;
+}
+#navbar li.current a {
+   border-bottom: 4px solid #ffffff;
+   padding-bottom: 35px;
+}
+#navbar a:hover{
+   background-color: #ffffff;
+   color: #cd1997;
+   border-radius: 2px;
+}
+/*showcase header*/
+#showcase{
+   background: url('../images/help.jpg') no-repeat center;
+   border-bottom: 1px solid #cd1997;
+   margin-bottom: 30px;
+}
+#showcase .row{
+height: 600px;
+}
+#values .fab, .fas{
+   color: #cd1997;
+   font-size: 60px;
+}
+#volunteerbutton .container {
+   background-color: #cd1997;
+   height: 300px;
+}
+#company{
+  background-color: lightgray;
+}
+#footer{
+   color: #ffffff;
+   background-color: #cd1997;
+}
